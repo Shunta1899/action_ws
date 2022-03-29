@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target nav2_send_waypoint[0m
+[ 50%] Built target nav2_send_goal
+[ 75%] [32mBuilding CXX object CMakeFiles/nav2_send_waypoint.dir/src/nav2_action_client_waypoint.cpp.o[0m

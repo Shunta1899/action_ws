@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o: in function `Nav2Client::sendGoal()':
+nav2_action_client.cpp:(.text._ZN10Nav2Client8sendGoalEv[_ZN10Nav2Client8sendGoalEv]+0x27f): undefined reference to `tx'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/nav2_send_goal.dir/build.make:158: nav2_send_goal] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_send_goal.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

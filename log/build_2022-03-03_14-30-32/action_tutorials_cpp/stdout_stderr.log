@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target nav2_send_waypoint[0m
+[ 50%] Built target nav2_send_goal
+[ 75%] [32mBuilding CXX object CMakeFiles/nav2_send_waypoint.dir/src/nav2_action_client_waypoint.cpp.o[0m
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client_waypoint.cpp:[m[K In member function ‘[01m[Kvoid Nav2Client::waypoints()[m[K’:
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client_waypoint.cpp:69:39:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateQuaternionFromRPY[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   69 |     tf2::Quaternion quaternion = tf2::[01;31m[KcreateQuaternionFromRPY[m[K(0,0,rz);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/nav2_send_waypoint.dir/build.make:63: CMakeFiles/nav2_send_waypoint.dir/src/nav2_action_client_waypoint.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/nav2_send_waypoint.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

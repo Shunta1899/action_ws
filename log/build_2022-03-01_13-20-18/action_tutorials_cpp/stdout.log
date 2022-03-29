@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target nav2_send_goal[0m
+[35m[1mScanning dependencies of target listener[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable nav2_send_goal[0m

@@ -1,0 +1,15 @@
+[0.012s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.055s] [35m[1mScanning dependencies of target nav2_send_goal[0m
+[0.074s] [ 50%] Built target listener
+[0.082s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o[0m
+[1.432s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:84:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+[1.433s]    84 | int [01;31m[Kmain[m[K(int argc, char **argv)
+[1.433s]       |     [01;31m[K^~~~[m[K
+[1.433s] In file included from [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:8[m[K:
+[1.433s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/subscriber_member_function.cpp:67:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+[1.433s]    67 | int [01;36m[Kmain[m[K(int argc, char* argv[]) {
+[1.433s]       |     [01;36m[K^~~~[m[K
+[3.038s] make[2]: *** [CMakeFiles/nav2_send_goal.dir/build.make:63: CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o] Error 1
+[3.038s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/nav2_send_goal.dir/all] Error 2
+[3.038s] make: *** [Makefile:141: all] Error 2
+[3.043s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12

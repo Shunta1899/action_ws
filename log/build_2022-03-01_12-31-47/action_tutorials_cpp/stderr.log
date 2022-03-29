@@ -1,0 +1,10 @@
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In member function ‘[01m[Kvoid Nav2Client::sendGoal()[m[K’:
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:33:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_x[m[K’ was not declared in this scope
+   33 |     if([01;31m[Kgoal_pos_x[m[K >0.0){
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:45:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_orientation[m[K’ was not declared in this scope
+   45 |        goal_msg.pose.pose.orientation.z = [01;31m[Kgoal_orientation[m[K;
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/nav2_send_goal.dir/build.make:63: CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_send_goal.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,14 @@
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In member function ‘[01m[Kvoid Nav2Client::poseCallback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:44:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   44 |       [01;31m[Ktf2[m[K::Quaternion q(
+      |       [01;31m[K^~~[m[K
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:51:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   51 |       [01;31m[Ktf2[m[K::Matrix3x3 m(q);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:55:7:[m[K [01;31m[Kerror: [m[K‘[01m[Km[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   55 |       [01;31m[Km[m[K.getRPY(roll, pitch, yaw);
+      |       [01;31m[K^[m[K
+      |       [32m[Ktm[m[K
+make[2]: *** [CMakeFiles/nav2_send_goal.dir/build.make:63: CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_send_goal.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

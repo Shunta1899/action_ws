@@ -1,0 +1,24 @@
+[0.016s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.047s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.256s] -- Found action_tutorials_interfaces: 0.0.0 (/home/naka-lab/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[0.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.286s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.414s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.327s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.368s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.370s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.516s] -- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.553s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.615s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.615s]   ament_target_dependencies() the passed package name
+[1.615s]   'ament_target_dependencies' was not found before
+[1.615s] Call Stack (most recent call first):
+[1.616s]   CMakeLists.txt:37 (ament_target_dependencies)
+[1.616s] 
+[1.616s] 
+[1.617s] -- Configuring incomplete, errors occurred!
+[1.617s] See also "/home/naka-lab/action_ws/build/action_tutorials_cpp/CMakeFiles/CMakeOutput.log".
+[1.617s] See also "/home/naka-lab/action_ws/build/action_tutorials_cpp/CMakeFiles/CMakeError.log".
+[1.625s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.627s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12

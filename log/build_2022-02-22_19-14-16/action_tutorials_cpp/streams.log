@@ -1,0 +1,17 @@
+[0.010s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.043s] [35m[1mScanning dependencies of target nav2_send_goal[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o[0m
+[1.064s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In member function ‘[01m[Kvoid Nav2Client::topic_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.065s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:35:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.065s]    35 |      goal_pos_x = msg.[01;31m[Kpose[m[K.position.x;
+[1.065s]       |                       [01;31m[K^~~~[m[K
+[1.065s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:36:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.065s]    36 |      goal_pos_y = msg.[01;31m[Kpose[m[K.position.y;
+[1.065s]       |                       [01;31m[K^~~~[m[K
+[1.065s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:37:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.065s]    37 |      goal_orientation = msg.[01;31m[Kpose[m[K.orientation.z;
+[1.065s]       |                             [01;31m[K^~~~[m[K
+[2.333s] make[2]: *** [CMakeFiles/nav2_send_goal.dir/build.make:63: CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o] Error 1
+[2.333s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_send_goal.dir/all] Error 2
+[2.333s] make: *** [Makefile:141: all] Error 2
+[2.334s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12

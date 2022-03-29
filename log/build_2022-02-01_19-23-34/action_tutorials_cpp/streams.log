@@ -1,0 +1,10 @@
+[0.010s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.027s] CMake Error at CMakeLists.txt:34:
+[0.027s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.027s] 
+[0.027s] 
+[0.027s] -- Configuring incomplete, errors occurred!
+[0.027s] See also "/home/naka-lab/action_ws/build/action_tutorials_cpp/CMakeFiles/CMakeOutput.log".
+[0.027s] See also "/home/naka-lab/action_ws/build/action_tutorials_cpp/CMakeFiles/CMakeError.log".
+[0.029s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.031s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '2': AMENT_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12

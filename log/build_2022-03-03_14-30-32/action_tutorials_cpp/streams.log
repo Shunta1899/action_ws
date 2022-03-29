@@ -1,0 +1,12 @@
+[0.022s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.098s] [35m[1mScanning dependencies of target nav2_send_waypoint[0m
+[0.130s] [ 50%] Built target nav2_send_goal
+[0.149s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_send_waypoint.dir/src/nav2_action_client_waypoint.cpp.o[0m
+[2.769s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client_waypoint.cpp:[m[K In member function ‘[01m[Kvoid Nav2Client::waypoints()[m[K’:
+[2.769s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client_waypoint.cpp:69:39:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateQuaternionFromRPY[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[2.770s]    69 |     tf2::Quaternion quaternion = tf2::[01;31m[KcreateQuaternionFromRPY[m[K(0,0,rz);
+[2.770s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.409s] make[2]: *** [CMakeFiles/nav2_send_waypoint.dir/build.make:63: CMakeFiles/nav2_send_waypoint.dir/src/nav2_action_client_waypoint.cpp.o] Error 1
+[4.410s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/nav2_send_waypoint.dir/all] Error 2
+[4.411s] make: *** [Makefile:141: all] Error 2
+[4.414s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12

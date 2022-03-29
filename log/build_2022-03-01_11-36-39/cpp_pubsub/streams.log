@@ -1,0 +1,38 @@
+[0.015s] Invoking command in '/home/naka-lab/action_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/cpp_pubsub -- -j12 -l12
+[0.034s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.201s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.378s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.379s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.503s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.533s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.582s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.583s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.583s] -- Configured cppcheck include dirs: 
+[0.583s] -- Configured cppcheck exclude dirs and/or files: 
+[0.584s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.584s] -- Configured cpplint exclude dirs and/or files: 
+[0.584s] -- Added test 'lint_cmake' to check CMake code style
+[0.585s] -- Added test 'uncrustify' to check C / C++ code style
+[0.585s] -- Configured uncrustify additional arguments: 
+[0.585s] -- Added test 'xmllint' to check XML markup files
+[0.587s] -- Configuring done
+[0.587s] CMake Error at CMakeLists.txt:24 (add_executable):
+[0.587s]   Cannot find source file:
+[0.588s] 
+[0.588s]     src/listener_member_function.cpp
+[0.588s] 
+[0.588s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.588s]   .hpp .hxx .in .txx
+[0.588s] 
+[0.588s] 
+[0.588s] CMake Error at CMakeLists.txt:24 (add_executable):
+[0.588s]   No SOURCES given to target: listener
+[0.588s] 
+[0.588s] 
+[0.588s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.592s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.595s] Invoked command in '/home/naka-lab/action_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/cpp_pubsub -- -j12 -l12

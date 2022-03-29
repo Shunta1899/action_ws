@@ -1,0 +1,73 @@
+[0.009s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/naka-lab/action_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/naka-lab/action_ws/install/action_tutorials_cpp
+[0.050s] -- The C compiler identification is GNU 9.3.0
+[0.092s] -- The CXX compiler identification is GNU 9.3.0
+[0.096s] -- Check for working C compiler: /usr/bin/cc
+[0.153s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.153s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.231s] -- Check for working CXX compiler: /usr/bin/c++
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.309s] -- Detecting CXX compiler ABI info
+[0.390s] -- Detecting CXX compiler ABI info - done
+[0.402s] -- Detecting CXX compile features
+[0.403s] -- Detecting CXX compile features - done
+[0.405s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.424s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.424s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.576s] -- Found action_tutorials_interfaces: 0.0.0 (/home/naka-lab/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[0.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.610s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.669s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.692s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.983s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.021s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.022s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.023s] -- Looking for pthread.h
+[1.077s] -- Looking for pthread.h - found
+[1.077s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.137s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.138s] -- Looking for pthread_create in pthreads
+[1.187s] -- Looking for pthread_create in pthreads - not found
+[1.187s] -- Looking for pthread_create in pthread
+[1.261s] -- Looking for pthread_create in pthread - found
+[1.262s] -- Found Threads: TRUE  
+[1.392s] -- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.420s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.471s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.532s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.532s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.532s] -- Configured cppcheck include dirs: 
+[1.532s] -- Configured cppcheck exclude dirs and/or files: 
+[1.533s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.533s] -- Configured cpplint exclude dirs and/or files: 
+[1.534s] -- Added test 'lint_cmake' to check CMake code style
+[1.534s] -- Added test 'uncrustify' to check C / C++ code style
+[1.534s] -- Configured uncrustify additional arguments: 
+[1.535s] -- Added test 'xmllint' to check XML markup files
+[1.537s] -- Configuring done
+[1.539s] -- Generating done
+[1.540s] -- Build files have been written to: /home/naka-lab/action_ws/build/action_tutorials_cpp
+[1.545s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/naka-lab/action_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/naka-lab/action_ws/install/action_tutorials_cpp
+[1.548s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[1.578s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[1.595s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/naka-lab/action_ws/build/action_tutorials_cpp
+[1.602s] -- Install configuration: ""
+[1.602s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[1.602s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[1.602s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[1.602s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[1.602s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[1.602s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[1.602s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[1.602s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[1.603s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[1.603s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[1.603s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[1.603s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[1.603s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[1.603s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[1.603s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[1.606s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/naka-lab/action_ws/build/action_tutorials_cpp

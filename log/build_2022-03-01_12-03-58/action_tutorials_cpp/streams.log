@@ -1,0 +1,22 @@
+[0.010s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.046s] [35m[1mScanning dependencies of target nav2_send_goal[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o[0m
+[1.064s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In constructor ‘[01m[KNav2Client::Nav2Client()[m[K’:
+[1.064s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:32:28:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPoseOdomSubscriber[m[K’ has not been declared
+[1.064s]    32 |                 std::bind(&[01;31m[KMinimalPoseOdomSubscriber[m[K::poseCallback, this, _1) );
+[1.064s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.066s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In member function ‘[01m[Kvoid Nav2Client::poseCallback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.066s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:44:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[1.066s]    44 |       [01;31m[Ktf2[m[K::Quaternion q(
+[1.066s]       |       [01;31m[K^~~[m[K
+[1.066s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:51:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[1.066s]    51 |       [01;31m[Ktf2[m[K::Matrix3x3 m(q);
+[1.066s]       |       [01;31m[K^~~[m[K
+[1.067s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:55:7:[m[K [01;31m[Kerror: [m[K‘[01m[Km[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[1.067s]    55 |       [01;31m[Km[m[K.getRPY(roll, pitch, yaw);
+[1.067s]       |       [01;31m[K^[m[K
+[1.067s]       |       [32m[Ktm[m[K
+[1.731s] make[2]: *** [CMakeFiles/nav2_send_goal.dir/build.make:63: CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o] Error 1
+[1.731s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_send_goal.dir/all] Error 2
+[1.731s] make: *** [Makefile:141: all] Error 2
+[1.733s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12

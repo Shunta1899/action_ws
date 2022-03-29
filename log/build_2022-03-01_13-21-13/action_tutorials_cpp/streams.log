@@ -1,0 +1,37 @@
+[0.014s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.057s] [35m[1mScanning dependencies of target nav2_send_goal[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o[0m
+[1.343s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:133:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.343s]   133 | [01;31m[K}[m[K
+[1.343s]       | [01;31m[K^[m[K
+[1.343s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:21:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.343s]    21 | [01;36m[K{[m[K
+[1.343s]       | [01;36m[K^[m[K
+[1.345s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In constructor ‘[01m[KNav2Client::Nav2Client()[m[K’:
+[1.346s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[KmPoseSub[m[K’ was not declared in this scope
+[1.346s]    35 |     [01;31m[KmPoseSub[m[K = create_subscription<geometry_msgs::msg::PoseStamped>(
+[1.346s]       |     [01;31m[K^~~~~~~~[m[K
+[1.346s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:37:28:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPoseOdomSubscriber[m[K’ has not been declared
+[1.346s]    37 |                 std::bind(&[01;31m[KMinimalPoseOdomSubscriber[m[K::poseCallback, this, _1) );
+[1.346s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.350s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In member function ‘[01m[Kvoid Nav2Client::poseCallback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.350s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsendGoal[m[K’ was not declared in this scope
+[1.351s]    68 |     [01;31m[KsendGoal[m[K();
+[1.351s]       |     [01;31m[K^~~~~~~~[m[K
+[1.364s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:72:23:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[1.364s]    72 |   void sendGoal(void) [01;31m[K{[m[K
+[1.364s]       |                       [01;31m[K^[m[K
+[1.364s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:102:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[1.364s]   102 |   [01;31m[K{[m[K
+[1.364s]       |   [01;31m[K^[m[K
+[1.364s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:107:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[1.364s]   107 |   [01;31m[K{[m[K
+[1.364s]       |   [01;31m[K^[m[K
+[1.367s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K At global scope:
+[1.367s] [01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:133:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.367s]   133 | [01;31m[K}[m[K
+[1.367s]       | [01;31m[K^[m[K
+[1.829s] make[2]: *** [CMakeFiles/nav2_send_goal.dir/build.make:63: CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o] Error 1
+[1.829s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_send_goal.dir/all] Error 2
+[1.830s] make: *** [Makefile:141: all] Error 2
+[1.831s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12

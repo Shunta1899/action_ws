@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/naka-lab/action_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/cpp_pubsub -- -j12 -l12
+[0.054s] [35m[1mScanning dependencies of target listener[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[4.223s] [100%] [32m[1mLinking CXX executable listener[0m
+[4.444s] [100%] Built target listener
+[4.454s] Invoked command in '/home/naka-lab/action_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/cpp_pubsub -- -j12 -l12
+[4.476s] Invoking command in '/home/naka-lab/action_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/naka-lab/action_ws/build/cpp_pubsub
+[4.483s] -- Install configuration: ""
+[4.483s] -- Installing: /home/naka-lab/action_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[4.485s] -- Set runtime path of "/home/naka-lab/action_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[4.485s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.485s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.485s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.485s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.485s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.485s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.485s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.485s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.485s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.486s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.486s] -- Installing: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.486s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.486s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.486s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.486s] -- Up-to-date: /home/naka-lab/action_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.488s] Invoked command in '/home/naka-lab/action_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/naka-lab/action_ws/build/cpp_pubsub

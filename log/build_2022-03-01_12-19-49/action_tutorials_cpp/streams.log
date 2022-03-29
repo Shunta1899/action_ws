@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.087s] [35m[1mScanning dependencies of target nav2_send_goal[0m
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o[0m
+[9.299s] [100%] [32m[1mLinking CXX executable nav2_send_goal[0m
+[9.800s] [100%] Built target nav2_send_goal
+[9.816s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/action_tutorials_cpp -- -j12 -l12
+[9.855s] Invoking command in '/home/naka-lab/action_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/naka-lab/action_ws/build/action_tutorials_cpp
+[9.865s] -- Install configuration: ""
+[9.865s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/nav2_send_goal
+[9.870s] -- Set runtime path of "/home/naka-lab/action_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/nav2_send_goal" to ""
+[9.870s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[9.870s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[9.870s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[9.871s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[9.871s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[9.871s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[9.871s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[9.871s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[9.871s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[9.871s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[9.871s] -- Installing: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[9.872s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[9.872s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[9.872s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[9.872s] -- Up-to-date: /home/naka-lab/action_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[9.875s] Invoked command in '/home/naka-lab/action_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/naka-lab/action_ws/install/action_tutorials_interfaces:/home/naka-lab/action_ws/install/cpp_pubsub:/home/naka-lab/action_ws/install/action_tutorials_cpp:/home/naka-lab/turtlebot3_ws/install/turtlebot3_simulations:/home/naka-lab/turtlebot3_ws/install/turtlebot3_gazebo:/home/naka-lab/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/naka-lab/action_ws/build/action_tutorials_cpp

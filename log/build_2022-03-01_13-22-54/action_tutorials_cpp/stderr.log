@@ -1,0 +1,11 @@
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:124:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  124 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In constructor ‘[01m[KNav2Client::Nav2Client()[m[K’:
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:37:28:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPoseOdomSubscriber[m[K’ has not been declared
+   37 |                 std::bind(&[01;31m[KMinimalPoseOdomSubscriber[m[K::poseCallback, this, _1) );
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/nav2_send_goal.dir/build.make:63: CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_send_goal.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

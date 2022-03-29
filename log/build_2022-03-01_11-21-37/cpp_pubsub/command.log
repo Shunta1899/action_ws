@@ -1,0 +1,6 @@
+Invoking command in '/home/naka-lab/action_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/naka-lab/action_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/naka-lab/action_ws/install/cpp_pubsub
+Invoked command in '/home/naka-lab/action_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/naka-lab/action_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/naka-lab/action_ws/install/cpp_pubsub
+Invoking command in '/home/naka-lab/action_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/cpp_pubsub -- -j12 -l12
+Invoked command in '/home/naka-lab/action_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/naka-lab/action_ws/build/cpp_pubsub -- -j12 -l12
+Invoking command in '/home/naka-lab/action_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/naka-lab/action_ws/build/cpp_pubsub
+Invoked command in '/home/naka-lab/action_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/naka-lab/action_ws/build/cpp_pubsub

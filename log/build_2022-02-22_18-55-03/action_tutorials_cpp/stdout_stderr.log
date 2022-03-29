@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target nav2_send_goal[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o[0m
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In constructor ‘[01m[KNav2Client::Nav2Client()[m[K’:
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:27:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   27 |     "topic", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In member function ‘[01m[Kvoid Nav2Client::topic_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:36:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   36 |       goal_pos_x = msg.[01;31m[Kpose[m[K.position.x;
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:37:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   37 |       goal_pos_y = msg.[01;31m[Kpose[m[K.position.y;
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:38:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   38 |       goal_orientation = msg.[01;31m[Kpose[m[K.orientation.z;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:97:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Nav2Client::sendGoal()[m[K’ is private within this context
+   97 |   node->sendGoal([01;31m[K)[m[K;
+      |                  [01;31m[K^[m[K
+[01m[K/home/naka-lab/action_ws/src/action_tutorials_cpp/src/nav2_action_client.cpp:43:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+   43 |   void [01;36m[KsendGoal[m[K(void) {
+      |        [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/nav2_send_goal.dir/build.make:63: CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_send_goal.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

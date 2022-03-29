@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target nav2_send_goal[0m
+[35m[1mScanning dependencies of target listener[0m
+make[2]: *** No rule to make target '/home/naka-lab/action_ws/src/action_tutorials_cpp/src/subscriber_member_function.cpp', needed by 'CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 25%] [32mBuilding CXX object CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable nav2_send_goal[0m
+/usr/bin/ld: CMakeFiles/nav2_send_goal.dir/src/nav2_action_client.cpp.o: in function `Nav2Client::sendGoal()':
+nav2_action_client.cpp:(.text._ZN10Nav2Client8sendGoalEv[_ZN10Nav2Client8sendGoalEv]+0x27f): undefined reference to `tx'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/nav2_send_goal.dir/build.make:158: nav2_send_goal] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/nav2_send_goal.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
